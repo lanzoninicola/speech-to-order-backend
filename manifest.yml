@@ -1,6 +1,6 @@
 ---
 applications:
 - name: speech-to-order-backend
-  path: .
+  path: ./src
   command: npm start
   memory: 256M

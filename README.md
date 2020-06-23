@@ -9,17 +9,15 @@
     ibmcloud login
     ```
 
-1. Target a Cloud Foundry organization and space.
+2. Target a Cloud Foundry organization and space.
 
     ```
     ibmcloud target --cf
     ```
 
-1. Edit the *manifest.yml* file. Change the **name** field to something unique. For example, `- name: my-app-name`.
-1. Deploy the application
+3. Edit the *manifest.yml* file. Change the **name** field to something unique. For example, `- name: my-app-name`.
+4. Deploy the application
 
     ```
     ibmcloud app push
     ```
-
-1. View the application online at the app URL, for example: https://my-app-name.mybluemix.net
