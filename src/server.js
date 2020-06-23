@@ -33,6 +33,7 @@ const secure = require('express-secure-only');
 app.use(secure());
 app.use(express.static(__dirname + '/static'));
 
+
 const sttAuthenticator = new IamTokenManager({
     apikey: process.env.SPEECH_TO_TEXT_IAM_APIKEY
 });
