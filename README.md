@@ -21,3 +21,8 @@
     ```
     ibmcloud app push
     ```
+
+
+## API URL
+
+https://speech-to-order-backend.eu-gb.mybluemix.net/api/speech-to-text/token
